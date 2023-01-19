@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+}
+
+.container-xl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+}
+#room-text a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#room-text a svg {
+    fill: #000;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-xl {
+        height: 100vh;
+    }
+    .container-xl input {
+        height: 55px;
+    }
+}
