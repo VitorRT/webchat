@@ -27,7 +27,6 @@ socket.emit("location_client", {
     username,
     room
 }, messages => {
-    console.log(messages);
     messages.forEach(msg => createMessage(msg))
 });
 
